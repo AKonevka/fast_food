@@ -194,3 +194,147 @@ h6 {
     line-height: 19px;
     color: rgba(255, 255, 255, 0.7);
 }
+
+.order {
+    padding: 73px 0px;
+    background: #312F30;
+
+}
+
+.order__container {
+    display: flex;
+    align-items: center;
+}
+
+.order__img-wrap {
+    width: 50%;
+}
+
+.order__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.order__desc {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.action {}
+
+.order__action {
+    max-width: 371px;
+
+}
+
+.action__title {
+    font-weight: 500;
+    font-size: 44.2px;
+    line-height: 52px;
+    margin-bottom: 24px;
+}
+
+.action__text {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(255, 255, 255, 0.7);
+    margin-bottom: 13px;
+}
+
+.action__price {
+    margin-bottom: 11px;
+}
+
+.action__price-new {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.action__price-old {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.1em;
+    text-decoration-line: line-through;
+    color: rgba(246, 118, 44, 0.5);
+
+}
+
+.product {
+    padding: 150px 0px 146px;
+}
+
+.product__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 30px;
+}
+
+.product__item {
+    width: 48.7%;
+    height: 300px;
+}
+
+.offer {
+    position: relative;
+}
+
+.offer__img {
+    width: 100%;
+    height: 100%;
+
+}
+
+
+
+.offer__action {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 0;
+    width: 47.6%;
+    padding-right: 5px;
+}
+
+.product__item:nth-child(even) .offer__action {
+    left: 50px;
+    right: auto;
+}
+
+.action__title {
+    font-size: 30px;
+    line-height: 1.6px;
+    margin-bottom: 20px;
+}
+
+.product__offer-title {
+    object-fit: cover;
+}
+
+.action__text {}
+
+.offer__text {
+    margin-bottom: 11px;
+}
+
+
+.offer__price {
+    margin-bottom: 11px;
+}
+
+.action__price-new {
+    font-size: 16px;
+
+}
+
+.btn_size_small {
+    padding: 13px 26px;
+    font-size: 12px;
+}
